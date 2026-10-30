@@ -1,0 +1,27 @@
+<?php
+// Integration checks. Run only against the isolated development router on port 8097.
+$base='http://127.0.0.1:8097';$cookie=tempnam(sys_get_temp_dir(),'parthvi-manager-');$passed=0;
+function req($path,$data=null){global $base,$cookie;$c=curl_init($base.$path);curl_setopt_array($c,[CURLOPT_RETURNTRANSFER=>true,CURLOPT_HEADER=>true,CURLOPT_COOKIEJAR=>$cookie,CURLOPT_COOKIEFILE=>$cookie]);if($data!==null){curl_setopt($c,CURLOPT_POST,true);curl_setopt($c,CURLOPT_POSTFIELDS,$data);}$raw=curl_exec($c);if($raw===false)throw new Exception(curl_error($c));$n=curl_getinfo($c,CURLINFO_HEADER_SIZE);$code=curl_getinfo($c,CURLINFO_RESPONSE_CODE);curl_close($c);return ['status'=>$code,'body'=>substr($raw,$n),'headers'=>substr($raw,0,$n)];}
+function ok($value,$message){global $passed;if(!$value)throw new Exception('FAIL: '.$message);$passed++;echo "PASS: $message\n";}
+function editor($html){$doc=new DOMDocument();@$doc->loadHTML($html);$xp=new DOMXPath($doc);$out=[];foreach($xp->query('//form[contains(@class,"editor-form")]//input | //form[contains(@class,"editor-form")]//textarea') as $f){$name=$f->getAttribute('name');$type=$f->getAttribute('type');if(!$name||in_array($type,['file','submit'])||($type==='checkbox'&&!$f->hasAttribute('checked')))continue;$out[$name]=$f->nodeName==='textarea'?$f->textContent:$f->getAttribute('value');}return $out;}
+function csrf($html){preg_match('/name="csrf" value="([a-f0-9]+)"/',$html,$m);return $m[1]??'';}
+function page_form($slug){return editor(req('/admin/index.php?section=pages&slug='.$slug)['body']);}
+function item_id($html,$name){$d=new DOMDocument();@$d->loadHTML($html);$xp=new DOMXPath($d);foreach($xp->query('//tr') as $r)if(str_contains($r->textContent,$name)){foreach($xp->query('.//a[contains(@href,"edit=")]',$r) as $a){parse_str(parse_url($a->getAttribute('href'),PHP_URL_QUERY),$q);return $q['edit'];}}return null;}
+function sitemap_modified(string $path): ?string {
+ $doc=new DOMDocument();$doc->loadXML(req('/sitemap.xml')['body']);$xp=new DOMXPath($doc);$xp->registerNamespace('s','http://www.sitemaps.org/schemas/sitemap/0.9');
+ foreach($xp->query('//s:url') as $url){$loc=$xp->query('s:loc',$url)->item(0)->textContent;if(parse_url($loc,PHP_URL_PATH)===$path)return $xp->query('s:lastmod',$url)->item(0)?->textContent;}
+ return null;
+}
+try {
+ $r=req('/admin/login.php');$r=req('/admin/login.php',['csrf'=>csrf($r['body']),'email'=>'admin@gmail.com','password'=>getenv('PARTHVI_TEST_PASSWORD')?:'123456']);ok($r['status']===302,'SEO test sign-in');
+ $id=item_id(req('/admin/index.php?section=products')['body'],'White Onion Flakes');$url='/admin/index.php?section=products&edit='.$id;$f=editor(req($url)['body']);$f['packing'].=' — SEO QA';ok(req($url,$f)['status']===302,'Save product modification');
+ foreach(['/products/white-onion-flakes','/','/products'] as $path){$value=sitemap_modified($path);ok($value&&strtotime($value)<=time()&&strtotime($value)>=time()-60,'Truthful sitemap lastmod: '.$path);}
+ $f=editor(req($url)['body']);$f['slug']='white-onion-flakes-seo-qa';ok(req($url,$f)['status']===302,'Save new product slug');$r=req('/products/white-onion-flakes');ok($r['status']===301&&str_contains($r['headers'],'products/white-onion-flakes-seo-qa'),'Previous product slug redirects permanently');$sitemap=req('/sitemap.xml')['body'];ok(str_contains($sitemap,'/products/white-onion-flakes-seo-qa</loc>')&&!str_contains($sitemap,'/products/white-onion-flakes</loc>'),'Sitemap lists only current canonical product slug');
+ $f=editor(req($url)['body']);unset($f['published']);req($url,$f);ok(req('/products/white-onion-flakes')['status']===404&&req('/products/white-onion-flakes-seo-qa')['status']===404,'Draft product and its old slug return 404');ok(!str_contains(req('/sitemap.xml')['body'],'/products/white-onion-flakes-seo-qa</loc>'),'Draft canonical excluded from sitemap');
+ $f=editor(req($url)['body']);$f['published']='1';req($url,$f);ok(req('/products/white-onion-flakes')['status']===301,'Published product restores old-slug redirect');
+ $f=editor(req('/admin/index.php?section=settings')['body']);$f['tagline'].=' — SEO QA';ok(req('/admin/index.php?section=settings',$f)['status']===302,'Save shared website content');ok((bool)sitemap_modified('/about'),'Shared-content modification updates dependent sitemap entries');
+ $f=page_form('about');$f['seo_title']='Updated company search title';$f['seo_description']='Updated company search description for the isolated SEO check.';req('/admin/index.php?section=pages&slug=about',$f);$body=req('/about')['body'];ok(str_contains($body,'Updated company search title')&&str_contains($body,'Updated company search description'),'Admin metadata updates public page');ok((bool)sitemap_modified('/about'),'Page metadata update tracked in sitemap');
+ $f=editor(req($url)['body']);$f['slug']='white-onion-flakes';req($url,$f);ok(req('/products/white-onion-flakes')['status']===200&&req('/products/white-onion-flakes-seo-qa')['status']===301,'Changing a slug back preserves a valid redirect chain without loops');
+ $beforeProduct=sitemap_modified('/products/white-onion-flakes');$beforeListing=sitemap_modified('/products');usleep(1100000);$f=editor(req($url)['body']);req($url,$f);ok(sitemap_modified('/products/white-onion-flakes')===$beforeProduct&&sitemap_modified('/products')===$beforeListing,'Saving unchanged content does not fabricate a new lastmod date');
+ echo "\n$passed SEO integration checks passed.\n";
+}finally{unlink($cookie);}

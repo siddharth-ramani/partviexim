@@ -1,0 +1,1908 @@
+{
+  "index": {
+    "h1_1": {
+      "label": "Main hero heading",
+      "value": "Goodness from\nour soil.\nFor your world.",
+      "group": "Hero banner",
+      "type": "textarea",
+      "multiline": true
+    },
+    "copy_8804a5276a": {
+      "label": "Hero small heading",
+      "value": "Indian ingredients exporter",
+      "group": "Hero banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_483cb724bb": {
+      "label": "Homepage introduction",
+      "value": "Dehydrated onion and garlic, peanuts, Indian spices and natural ingredients—carefully sourced in India for importers and food businesses worldwide.",
+      "group": "Hero banner",
+      "type": "textarea",
+      "multiline": true
+    },
+    "copy_c5c3583b27": {
+      "label": "Explore our products",
+      "value": "Explore our products",
+      "group": "Hero banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_70e1e3dc6a": {
+      "label": "Let’s talk",
+      "value": "Let’s talk",
+      "group": "Hero banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_fd84811d53": {
+      "label": "✦ Indian origin",
+      "value": "✦ Indian origin",
+      "group": "Hero banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_d0703a4097": {
+      "label": "✦ Bulk & custom packing",
+      "value": "✦ Bulk & custom packing",
+      "group": "Hero banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_4961458083": {
+      "label": "✦ Export assistance",
+      "value": "✦ Export assistance",
+      "group": "Hero banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_4d78b20ae2": {
+      "label": "Sourced",
+      "value": "Sourced",
+      "group": "Hero banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_f5baebda8a": {
+      "label": "with care.",
+      "value": "with care.",
+      "group": "Hero banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_1840729366": {
+      "label": "From India.",
+      "value": "From India.",
+      "group": "Hero banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_ea3f7d5748": {
+      "label": "Nature’s finest. Delivered.",
+      "value": "Nature’s finest. Delivered.",
+      "group": "Hero banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_8cee91ac9c": {
+      "label": "PARTHVI EXIM · GUJARAT, INDIA",
+      "value": "PARTHVI EXIM · GUJARAT, INDIA",
+      "group": "Hero banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_e85ed192e9": {
+      "label": "OUR BUSINESS REGISTRATIONS",
+      "value": "OUR BUSINESS REGISTRATIONS",
+      "group": "Registration ribbon",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_9b719b9555": {
+      "label": "FSSAI Licensed",
+      "value": "FSSAI Licensed",
+      "group": "Registration ribbon",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_397023c40d": {
+      "label": "IEC Registered",
+      "value": "IEC Registered",
+      "group": "Registration ribbon",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_e42f54db09": {
+      "label": "GST Registered",
+      "value": "GST Registered",
+      "group": "Registration ribbon",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_15024ab1b9": {
+      "label": "View certificates ↗",
+      "value": "View certificates ↗",
+      "group": "Registration ribbon",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_21be17f4fe": {
+      "label": "A WORLD OF INGREDIENTS",
+      "value": "A WORLD OF INGREDIENTS",
+      "group": "Product categories",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_078473b147": {
+      "label": "Category section heading – line 1",
+      "value": "Explore Indian ingredients",
+      "group": "Product categories",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_7e4eb0e94a": {
+      "label": "Category section heading – line 2",
+      "value": "for your business.",
+      "group": "Product categories",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_c2dc3f8d67": {
+      "label": "View full catalogue",
+      "value": "View full catalogue",
+      "group": "Product categories",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_fa63e0c021": {
+      "label": "Local roots. Global outlook.",
+      "value": "Local roots. Global outlook.",
+      "group": "Company introduction",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_5bf6be96bf": {
+      "label": "MEET PARTHVI EXIM",
+      "value": "MEET PARTHVI EXIM",
+      "group": "Company introduction",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_095f687b49": {
+      "label": "Heading 2 — Connecting India’s harvest",
+      "value": "Connecting India’s harvest",
+      "group": "Company introduction",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_08e59704aa": {
+      "label": "with your next opportunity.",
+      "value": "with your next opportunity.",
+      "group": "Company introduction",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_81544aa1d6": {
+      "label": "Paragraph 1 — Based in Gujarat, we help importers, distribu",
+      "value": "Based in Gujarat, we help importers, distributors and food businesses source the ingredients they need, with clear communication and support from product selection to shipment.",
+      "group": "Company introduction",
+      "type": "textarea",
+      "multiline": true
+    },
+    "copy_f4c834406e": {
+      "label": "The story behind our ingredients",
+      "value": "The story behind our ingredients",
+      "group": "Company introduction",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_1d789a041d": {
+      "label": "Indian origin",
+      "value": "Indian origin",
+      "group": "Company introduction",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_ab309a3aa3": {
+      "label": "Carefully sourced ingredients",
+      "value": "Carefully sourced ingredients",
+      "group": "Company introduction",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_c2a1cfae81": {
+      "label": "A thoughtfully curated range",
+      "value": "A thoughtfully curated range",
+      "group": "Company introduction",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_75526fb175": {
+      "label": "Your choice",
+      "value": "Your choice",
+      "group": "Company introduction",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_9575fdc333": {
+      "label": "Flexible packaging options",
+      "value": "Flexible packaging options",
+      "group": "Company introduction",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_61bb9eea8a": {
+      "label": "OUR PRODUCT COLLECTION",
+      "value": "OUR PRODUCT COLLECTION",
+      "group": "Featured products",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_ecb0b40150": {
+      "label": "Heading 3 — Find your next essential.",
+      "value": "Find your next essential.",
+      "group": "Featured products",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_a27c591322": {
+      "label": "A SIMPLE PATH TO YOUR SHIPMENT",
+      "value": "A SIMPLE PATH TO YOUR SHIPMENT",
+      "group": "How ordering works",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_3946a1558e": {
+      "label": "Heading 4 — Good partnerships.",
+      "value": "Good partnerships.",
+      "group": "How ordering works",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_8317a3dd8b": {
+      "label": "From the very first conversation.",
+      "value": "From the very first conversation.",
+      "group": "How ordering works",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_1814e83ff3": {
+      "label": "Heading 1 — Share your requirements",
+      "value": "Share your requirements",
+      "group": "How ordering works",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_0b946270b7": {
+      "label": "Paragraph 1 — Choose your ingredients and tell us the quant",
+      "value": "Choose your ingredients and tell us the quantity, grade and destination.",
+      "group": "How ordering works",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_7ca705abb2": {
+      "label": "Heading 2 — Find the right fit",
+      "value": "Find the right fit",
+      "group": "How ordering works",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_94aa847672": {
+      "label": "Paragraph 2 — We discuss product specifications, available ",
+      "value": "We discuss product specifications, available packaging and your quotation.",
+      "group": "How ordering works",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_b0adafc60b": {
+      "label": "Heading 3 — Prepare with care",
+      "value": "Prepare with care",
+      "group": "How ordering works",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_fa51087b77": {
+      "label": "Paragraph 3 — Your order is coordinated to the agreed produ",
+      "value": "Your order is coordinated to the agreed product and packing requirements.",
+      "group": "How ordering works",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_8d4f1f1811": {
+      "label": "Heading 4 — Move with confidence",
+      "value": "Move with confidence",
+      "group": "How ordering works",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_529db627fa": {
+      "label": "Paragraph 4 — Get assistance with export documentation and ",
+      "value": "Get assistance with export documentation and shipment coordination.",
+      "group": "How ordering works",
+      "type": "text",
+      "multiline": false
+    },
+    "hero_main_image": {
+      "label": "Main hero ingredient image",
+      "value": "assets/images/catalogue/moringa-powder.webp",
+      "group": "Images",
+      "type": "image",
+      "multiline": false
+    },
+    "hero_secondary_image": {
+      "label": "Second hero ingredient image",
+      "value": "assets/images/catalogue/green-cardamom.webp",
+      "group": "Images",
+      "type": "image",
+      "multiline": false
+    },
+    "company_image": {
+      "label": "Company section image",
+      "value": "assets/images/catalogue/green-cardamom.webp",
+      "group": "Images",
+      "type": "image",
+      "multiline": false
+    },
+    "show_hero": {
+      "label": "Show hero section",
+      "value": "1",
+      "group": "Section visibility",
+      "type": "toggle",
+      "multiline": false
+    },
+    "show_registrations": {
+      "label": "Show registrations section",
+      "value": "1",
+      "group": "Section visibility",
+      "type": "toggle",
+      "multiline": false
+    },
+    "show_categories": {
+      "label": "Show categories section",
+      "value": "1",
+      "group": "Section visibility",
+      "type": "toggle",
+      "multiline": false
+    },
+    "show_company": {
+      "label": "Show company section",
+      "value": "1",
+      "group": "Section visibility",
+      "type": "toggle",
+      "multiline": false
+    },
+    "show_featured": {
+      "label": "Show featured section",
+      "value": "1",
+      "group": "Section visibility",
+      "type": "toggle",
+      "multiline": false
+    },
+    "show_steps": {
+      "label": "Show steps section",
+      "value": "1",
+      "group": "Section visibility",
+      "type": "toggle",
+      "multiline": false
+    },
+    "featured_limit": {
+      "label": "Maximum featured products",
+      "value": "8",
+      "group": "Featured products",
+      "type": "number",
+      "multiline": false
+    },
+    "hero_primary_link": {
+      "label": "Hero primary link",
+      "value": "products",
+      "group": "Button destinations",
+      "type": "link",
+      "multiline": false
+    },
+    "hero_secondary_link": {
+      "label": "Hero secondary link",
+      "value": "contact",
+      "group": "Button destinations",
+      "type": "link",
+      "multiline": false
+    },
+    "company_link": {
+      "label": "Company link",
+      "value": "about",
+      "group": "Button destinations",
+      "type": "link",
+      "multiline": false
+    },
+    "hero_main_alt": {
+      "label": "Main hero image description",
+      "value": "Moringa powder",
+      "group": "Images",
+      "type": "text",
+      "multiline": false
+    },
+    "hero_secondary_alt": {
+      "label": "Second hero image description",
+      "value": "Green cardamom",
+      "group": "Images",
+      "type": "text",
+      "multiline": false
+    },
+    "category_count": {
+      "label": "Category count text",
+      "value": "{count} products in this range",
+      "group": "Product categories",
+      "type": "text",
+      "multiline": false
+    },
+    "category_count_one": {
+      "label": "Single-product category text",
+      "value": "{count} product in this range",
+      "group": "Product categories",
+      "type": "text",
+      "multiline": false
+    },
+    "category_total": {
+      "label": "Number of categories text",
+      "value": "{count} categories",
+      "group": "Company introduction",
+      "type": "text",
+      "multiline": false
+    },
+    "browse_count": {
+      "label": "Browse-products button text",
+      "value": "Browse all {count} products",
+      "group": "Featured products",
+      "type": "text",
+      "multiline": false
+    },
+    "company_image_alt": {
+      "label": "Company image description",
+      "value": "Indian agricultural ingredients",
+      "group": "Images",
+      "type": "text",
+      "multiline": false
+    }
+  },
+  "about": {
+    "copy_bd7f18d878": {
+      "label": "OUR ROOTS. OUR PURPOSE.",
+      "value": "OUR ROOTS. OUR PURPOSE.",
+      "group": "Page banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_b411b09d38": {
+      "label": "Heading 1 — Rooted in India.",
+      "value": "Rooted in India.",
+      "group": "Page banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_f6659f7789": {
+      "label": "Built on relationships.",
+      "value": "Built on relationships.",
+      "group": "Page banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_8b19e7ddfb": {
+      "label": "Paragraph 1 — A thoughtful approach to sourcing. A personal",
+      "value": "A thoughtful approach to sourcing. A personal commitment to every business we work with.",
+      "group": "Page banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_95a7cbf29c": {
+      "label": "Good ingredients start here.",
+      "value": "Good ingredients start here.",
+      "group": "Company introduction",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_45f8ea12e4": {
+      "label": "WELCOME TO PARTHVI EXIM",
+      "value": "WELCOME TO PARTHVI EXIM",
+      "group": "Company introduction",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_0ad0738b14": {
+      "label": "Heading 1 — Bringing India’s ingredients",
+      "value": "Bringing India’s ingredients",
+      "group": "Company introduction",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_d7b8670ce4": {
+      "label": "closer to your business.",
+      "value": "closer to your business.",
+      "group": "Company introduction",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_15e438d570": {
+      "label": "Explore our collection ↗",
+      "value": "Explore our collection ↗",
+      "group": "Company introduction",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_a87b411aaf": {
+      "label": "WHAT GUIDES US",
+      "value": "WHAT GUIDES US",
+      "group": "Company principles",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_f2e46664a1": {
+      "label": "Heading 2 — A shared purpose.",
+      "value": "A shared purpose.",
+      "group": "Company principles",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_3d8a3051bf": {
+      "label": "A long-term perspective.",
+      "value": "A long-term perspective.",
+      "group": "Company principles",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_78af8f1d12": {
+      "label": "PARTHVI EXIM",
+      "value": "PARTHVI EXIM",
+      "group": "Company principles",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_a50c3184b2": {
+      "label": "A PARTNER YOU CAN TALK TO",
+      "value": "A PARTNER YOU CAN TALK TO",
+      "group": "Why choose us",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_b73e95e559": {
+      "label": "Heading 3 — Care in the details.",
+      "value": "Care in the details.",
+      "group": "Why choose us",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_4d3a9d5278": {
+      "label": "Clarity at every step.",
+      "value": "Clarity at every step.",
+      "group": "Why choose us",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_38872b6e1d": {
+      "label": "THE PERSON BEHIND THE PROMISE",
+      "value": "THE PERSON BEHIND THE PROMISE",
+      "group": "Founder profile",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_5a6d5c8396": {
+      "label": "Heading 1 — Business built on trust.",
+      "value": "Business built on trust.",
+      "group": "Founder profile",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_2fab4ad580": {
+      "label": "Relationships built to last.",
+      "value": "Relationships built to last.",
+      "group": "Founder profile",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_4764598ed8": {
+      "label": "Paragraph 1 — “At Parthvi Exim, we don’t just export produc",
+      "value": "“At Parthvi Exim, we don’t just export products; we export trust and the rich heritage of Indian agriculture.”",
+      "group": "Founder profile",
+      "type": "textarea",
+      "multiline": true
+    },
+    "copy_26044d5913": {
+      "label": "Paragraph 2 — Our focus is on long-term buyer relationships",
+      "value": "Our focus is on long-term buyer relationships, clear communication and helping each business find the right ingredients for its market.",
+      "group": "Founder profile",
+      "type": "textarea",
+      "multiline": true
+    },
+    "copy_b415ab881d": {
+      "label": "Dhruvi Mavani",
+      "value": "Dhruvi Mavani",
+      "group": "Founder profile",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_20641f3ddf": {
+      "label": "Parthvi Exim · Gujarat, India",
+      "value": "Parthvi Exim · Gujarat, India",
+      "group": "Founder profile",
+      "type": "text",
+      "multiline": false
+    },
+    "intro_image": {
+      "label": "Company introduction image",
+      "value": "assets/images/catalogue/white-onion-flakes.webp",
+      "group": "Images",
+      "type": "image",
+      "multiline": false
+    },
+    "founder_image": {
+      "label": "Founder photo",
+      "value": "assets/images/catalogue/founder-dhruvi-mavani.webp",
+      "group": "Founder profile",
+      "type": "image",
+      "multiline": false
+    },
+    "show_intro": {
+      "label": "Show intro section",
+      "value": "1",
+      "group": "Section visibility",
+      "type": "toggle",
+      "multiline": false
+    },
+    "show_principles": {
+      "label": "Show principles section",
+      "value": "1",
+      "group": "Section visibility",
+      "type": "toggle",
+      "multiline": false
+    },
+    "show_benefits": {
+      "label": "Show benefits section",
+      "value": "1",
+      "group": "Section visibility",
+      "type": "toggle",
+      "multiline": false
+    },
+    "show_founder": {
+      "label": "Show founder section",
+      "value": "1",
+      "group": "Section visibility",
+      "type": "toggle",
+      "multiline": false
+    },
+    "show_values": {
+      "label": "Show core values section",
+      "value": "0",
+      "group": "Section visibility",
+      "type": "toggle",
+      "multiline": false
+    },
+    "values_heading": {
+      "label": "Core values heading",
+      "value": "The values behind every partnership.",
+      "group": "Company principles",
+      "type": "text",
+      "multiline": false
+    },
+    "mission_label": {
+      "label": "Our mission card title",
+      "value": "Our mission",
+      "group": "Company principles",
+      "type": "text",
+      "multiline": false
+    },
+    "vision_label": {
+      "label": "Our vision card title",
+      "value": "Our vision",
+      "group": "Company principles",
+      "type": "text",
+      "multiline": false
+    },
+    "purpose_label": {
+      "label": "Our purpose card title",
+      "value": "Our purpose",
+      "group": "Company principles",
+      "type": "text",
+      "multiline": false
+    },
+    "intro_image_alt": {
+      "label": "Company image description",
+      "value": "Indian ingredients from our product collection",
+      "group": "Images",
+      "type": "text",
+      "multiline": false
+    }
+  },
+  "products": {
+    "copy_c78c14c55d": {
+      "label": "Products",
+      "value": "Products",
+      "group": "Page banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_82f31e4b35": {
+      "label": "Heading 1 — Ingredients for a world",
+      "value": "Ingredients for a world",
+      "group": "Page banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_aa7be5d90f": {
+      "label": "of possibilities.",
+      "value": "of possibilities.",
+      "group": "Page banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_1d32c47d5e": {
+      "label": "Paragraph 1 — Explore our carefully selected range of India",
+      "value": "Explore our carefully selected range of Indian ingredients. Find the right product, form and packaging for your business.",
+      "group": "Page banner",
+      "type": "textarea",
+      "multiline": true
+    },
+    "copy_15ad537e2c": {
+      "label": "PRODUCT OVERVIEW",
+      "value": "PRODUCT OVERVIEW",
+      "group": "Product details",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_4269fd7fdc": {
+      "label": "Product specifications",
+      "value": "Product specifications",
+      "group": "Product details",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_e7c3c671be": {
+      "label": "Origin",
+      "value": "Origin",
+      "group": "Product details",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_1eb08a7fc5": {
+      "label": "Packaging",
+      "value": "Packaging",
+      "group": "Product details",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_ac27a63326": {
+      "label": "Heading 1 — Available grades & forms",
+      "value": "Available grades & forms",
+      "group": "Product details",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_96ad339e3b": {
+      "label": "Heading 2 — Applications",
+      "value": "Applications",
+      "group": "Product details",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_25f763cf50": {
+      "label": "Paragraph 1 — Confirm current availability, final specifica",
+      "value": "Confirm current availability, final specifications and packing requirements with our team before ordering.",
+      "group": "Product details",
+      "type": "textarea",
+      "multiline": true
+    },
+    "copy_1d2ecbd71b": {
+      "label": "KEEP EXPLORING",
+      "value": "KEEP EXPLORING",
+      "group": "Product details",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_69366517fe": {
+      "label": "Heading 1 — More from this collection.",
+      "value": "More from this collection.",
+      "group": "Product details",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_662baf1e32": {
+      "label": "All products ↗",
+      "value": "All products ↗",
+      "group": "Product details",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_a9aec55e03": {
+      "label": "EXPLORE THE RANGE",
+      "value": "EXPLORE THE RANGE",
+      "group": "Catalogue & search",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_77825864e2": {
+      "label": "Heading 1 — Our product catalogue.",
+      "value": "Our product catalogue.",
+      "group": "Catalogue & search",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_2bfd398493": {
+      "label": "Search products",
+      "value": "Search products",
+      "group": "Catalogue & search",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_14df988823": {
+      "label": "Heading 1 — No matching ingredients",
+      "value": "No matching ingredients",
+      "group": "Catalogue & search",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_d7454b77da": {
+      "label": "Paragraph 1 — Try another search or browse a different cate",
+      "value": "Try another search or browse a different category.",
+      "group": "Catalogue & search",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_9176bc4920": {
+      "label": "Button label 1 — Show all products",
+      "value": "Show all products",
+      "group": "Catalogue & search",
+      "type": "text",
+      "multiline": false
+    },
+    "banner_label": {
+      "label": "Banner small heading",
+      "value": "THE PARTHVI EXIM COLLECTION",
+      "group": "Page banner",
+      "type": "text",
+      "multiline": false
+    },
+    "search_placeholder": {
+      "label": "Search field placeholder",
+      "value": "Search for an ingredient…",
+      "group": "Catalogue filters",
+      "type": "text",
+      "multiline": false
+    },
+    "all_filter_label": {
+      "label": "All categories filter label",
+      "value": "All products",
+      "group": "Catalogue filters",
+      "type": "text",
+      "multiline": false
+    },
+    "quotation_label": {
+      "label": "Quotation button text",
+      "value": "Request a quotation ↗",
+      "group": "Product details",
+      "type": "text",
+      "multiline": false
+    },
+    "whatsapp_label": {
+      "label": "WhatsApp button text",
+      "value": "Ask on WhatsApp ↗",
+      "group": "Product details",
+      "type": "text",
+      "multiline": false
+    },
+    "whatsapp_message": {
+      "label": "WhatsApp message ({product} is automatic)",
+      "value": "Hello, I am interested in {product}. Please share details and a quotation.",
+      "group": "Product details",
+      "type": "text",
+      "multiline": false
+    },
+    "count_all": {
+      "label": "Catalogue count text ({count} is automatic)",
+      "value": "{count} products in our collection",
+      "group": "Catalogue & search",
+      "type": "text",
+      "multiline": false
+    },
+    "count_all_one": {
+      "label": "Single-product count text",
+      "value": "{count} product in our collection",
+      "group": "Catalogue & search",
+      "type": "text",
+      "multiline": false
+    },
+    "count_category": {
+      "label": "Category count text ({count}, {category})",
+      "value": "{count} products in {category}",
+      "group": "Catalogue & search",
+      "type": "text",
+      "multiline": false
+    },
+    "count_category_one": {
+      "label": "Single-product category count text",
+      "value": "{count} product in {category}",
+      "group": "Catalogue & search",
+      "type": "text",
+      "multiline": false
+    },
+    "category_kicker": {
+      "label": "Category banner label",
+      "value": "INDIAN INGREDIENTS FOR GLOBAL BUYERS",
+      "group": "Category landing pages",
+      "type": "text",
+      "multiline": false
+    },
+    "category_quote": {
+      "label": "Category quotation button",
+      "value": "Discuss this product range",
+      "group": "Category landing pages",
+      "type": "text",
+      "multiline": false
+    },
+    "category_range_label": {
+      "label": "Category product-list label",
+      "value": "EXPLORE THE RANGE",
+      "group": "Category landing pages",
+      "type": "text",
+      "multiline": false
+    },
+    "category_range_heading": {
+      "label": "Category range heading ({category})",
+      "value": "Our {category} collection.",
+      "group": "Category landing pages",
+      "type": "text",
+      "multiline": false
+    },
+    "category_guide_label": {
+      "label": "Buying-guide label",
+      "value": "BUYER INFORMATION",
+      "group": "Category landing pages",
+      "type": "text",
+      "multiline": false
+    },
+    "category_guide_heading": {
+      "label": "Buying-guide heading",
+      "value": "Choose the right ingredient for your application.",
+      "group": "Category landing pages",
+      "type": "text",
+      "multiline": false
+    },
+    "category_certificates": {
+      "label": "Certificate link label",
+      "value": "View business documents",
+      "group": "Category landing pages",
+      "type": "text",
+      "multiline": false
+    },
+    "category_about": {
+      "label": "Company link label",
+      "value": "About our sourcing approach",
+      "group": "Category landing pages",
+      "type": "text",
+      "multiline": false
+    }
+  },
+  "contact": {
+    "copy_2ace936824": {
+      "label": "Get In Touch",
+      "value": "Get In Touch",
+      "group": "Page banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_3e58d71c59": {
+      "label": "Paragraph 1 — Our team provides complete assistance includi",
+      "value": "Our team provides complete assistance including product details, quotations, documentation, and shipment coordination.",
+      "group": "Page banner",
+      "type": "textarea",
+      "multiline": true
+    },
+    "copy_8f2659d046": {
+      "label": "Form label 1 — Website",
+      "value": "Website",
+      "group": "Inquiry form",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_782084b905": {
+      "label": "Paragraph 1 — Send your requirements directly to our team. ",
+      "value": "Send your requirements directly to our team. We will review your inquiry and reply using your contact details.",
+      "group": "Inquiry form",
+      "type": "textarea",
+      "multiline": true
+    },
+    "copy_d7797f3377": {
+      "label": "Paragraph 2 — Read our",
+      "value": "Read our",
+      "group": "Inquiry form",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_9dd83651dc": {
+      "label": "to learn how inquiry details are handled. Fields marked * are required.",
+      "value": "to learn how inquiry details are handled. Fields marked * are required.",
+      "group": "Inquiry form",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_1591c15531": {
+      "label": "Form label 2 — Your Name *",
+      "value": "Your Name *",
+      "group": "Inquiry form",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_db67894b8f": {
+      "label": "Form label 3 — Email Address *",
+      "value": "Email Address *",
+      "group": "Inquiry form",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_412d7b1bc6": {
+      "label": "Form label 4 — Phone Number",
+      "value": "Phone Number",
+      "group": "Inquiry form",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_0d65f6c2b9": {
+      "label": "Form label 5 — Country",
+      "value": "Country",
+      "group": "Inquiry form",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_15023507e9": {
+      "label": "Form label 6 — Product Interested In *",
+      "value": "Product Interested In *",
+      "group": "Inquiry form",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_a3f44c1511": {
+      "label": "Select Product",
+      "value": "Select Product",
+      "group": "Inquiry form",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_7250ecc8f9": {
+      "label": "Form label 7 — Company Name",
+      "value": "Company Name",
+      "group": "Inquiry form",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_780ec2478b": {
+      "label": "Form label 8 — Quantity & Requirements *",
+      "value": "Quantity & Requirements *",
+      "group": "Inquiry form",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_20818a7541": {
+      "label": "Button label 1 — Send Inquiry",
+      "value": "Send Inquiry",
+      "group": "Inquiry form",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_1a9350a605": {
+      "label": "Contact Details",
+      "value": "Contact Details",
+      "group": "Contact information",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_05acd41fce": {
+      "label": "Phone",
+      "value": "Phone",
+      "group": "Contact information",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_beb8fe7e51": {
+      "label": "WhatsApp",
+      "value": "WhatsApp",
+      "group": "Contact information",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_8d5e4d2062": {
+      "label": "Email",
+      "value": "Email",
+      "group": "Contact information",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_a7548a97aa": {
+      "label": "Address",
+      "value": "Address",
+      "group": "Contact information",
+      "type": "text",
+      "multiline": false
+    },
+    "quantity_placeholder": {
+      "label": "Requirements field example",
+      "value": "e.g. 5 tonnes, 25 kg bags, delivery to Dubai",
+      "group": "Inquiry form",
+      "type": "text",
+      "multiline": false
+    },
+    "h1_1": {
+      "label": "Banner heading — Send your trade inquiry.",
+      "value": "Send your trade inquiry.",
+      "multiline": false,
+      "group": "Page banner",
+      "type": "text"
+    },
+    "h2_1": {
+      "label": "Heading — Tell us what you need.",
+      "value": "Tell us what you need.",
+      "multiline": false,
+      "group": "Inquiry form",
+      "type": "text"
+    },
+    "h2_2": {
+      "label": "Heading — Parthvi Exim",
+      "value": "Parthvi Exim",
+      "multiline": false,
+      "group": "Contact information",
+      "type": "text"
+    },
+    "general_inquiry": {
+      "label": "General inquiry option",
+      "value": "General inquiry",
+      "group": "Inquiry form",
+      "type": "text",
+      "multiline": false
+    },
+    "sending_label": {
+      "label": "Button text while sending",
+      "value": "Sending inquiry…",
+      "group": "Inquiry form",
+      "type": "text",
+      "multiline": false
+    },
+    "success_message": {
+      "label": "Successful inquiry message ({id} is automatic)",
+      "value": "Thank you. Your inquiry #{id} has been received. Our team will review your requirements and contact you.",
+      "group": "Inquiry form",
+      "type": "text",
+      "multiline": false
+    }
+  },
+  "certificates": {
+    "copy_c698a3be1d": {
+      "label": "PDF",
+      "value": "PDF",
+      "group": "Certificate cards",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_41d08b2d95": {
+      "label": "View certificate",
+      "value": "View certificate",
+      "group": "Certificate cards",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_ba515d58e3": {
+      "label": "Get In Touch",
+      "value": "Get In Touch",
+      "group": "Certificate support",
+      "type": "text",
+      "multiline": false
+    },
+    "span_1": {
+      "label": "Small heading — Certificates",
+      "value": "Certificates",
+      "multiline": false,
+      "group": "Page banner",
+      "type": "text"
+    },
+    "h1_1": {
+      "label": "Banner heading — Our registrations & certificates.",
+      "value": "Our registrations & certificates.",
+      "multiline": false,
+      "group": "Page banner",
+      "type": "text"
+    },
+    "p_1": {
+      "label": "Paragraph — Explore our business registration and export docum",
+      "value": "Explore our business registration and export documents. View the original certificates or download a copy for your records.",
+      "multiline": true,
+      "group": "Page banner",
+      "type": "textarea"
+    },
+    "h2_1": {
+      "label": "Heading — Need more documentation?",
+      "value": "Need more documentation?",
+      "multiline": false,
+      "group": "Certificate support",
+      "type": "text"
+    },
+    "p_2": {
+      "label": "Paragraph — Contact our team for product details, trade inquir",
+      "value": "Contact our team for product details, trade inquiries, and shipment documentation support.",
+      "multiline": true,
+      "group": "Certificate support",
+      "type": "textarea"
+    },
+    "view_pdf_label": {
+      "label": "View-document button",
+      "value": "View PDF",
+      "group": "Certificate cards",
+      "type": "text",
+      "multiline": false
+    },
+    "download_label": {
+      "label": "Download button",
+      "value": "Download",
+      "group": "Certificate cards",
+      "type": "text",
+      "multiline": false
+    }
+  },
+  "site": {
+    "copy_fc3c3526ef": {
+      "label": "Explore all products",
+      "value": "Explore all products",
+      "group": "Navigation",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_bbaec07aaf": {
+      "label": "Send Inquiry",
+      "value": "Send Inquiry",
+      "group": "Navigation",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_bc03ff76bb": {
+      "label": "Quick Links",
+      "value": "Quick Links",
+      "group": "Footer",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_5d9d147310": {
+      "label": "About us",
+      "value": "About us",
+      "group": "Footer",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_40024478c2": {
+      "label": "Our Products",
+      "value": "Our Products",
+      "group": "Footer",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_2f1c13920c": {
+      "label": "Certificates",
+      "value": "Certificates",
+      "group": "Footer",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_e642947ca3": {
+      "label": "Contact us",
+      "value": "Contact us",
+      "group": "Footer",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_d4cf0af9a0": {
+      "label": "Contact",
+      "value": "Contact",
+      "group": "Footer",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_1ecfe0874c": {
+      "label": "Developed by",
+      "value": "Developed by",
+      "group": "Footer",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_17c3c47391": {
+      "label": "Gravity infotech",
+      "value": "Gravity infotech",
+      "group": "Footer",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_108154ceb7": {
+      "label": "Chat on WhatsApp",
+      "value": "Chat on WhatsApp",
+      "group": "Footer",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_075efbca80": {
+      "label": "LET’S GROW TOGETHER",
+      "value": "LET’S GROW TOGETHER",
+      "group": "Shared enquiry banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_9ab3a01287": {
+      "label": "The right ingredients.",
+      "value": "The right ingredients.",
+      "group": "Shared enquiry banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_02edeb90b4": {
+      "label": "A reliable export partner.",
+      "value": "A reliable export partner.",
+      "group": "Shared enquiry banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_106986fa82": {
+      "label": "Tell us your product, quantity and destination. We’ll take it from there.",
+      "value": "Tell us your product, quantity and destination. We’ll take it from there.",
+      "group": "Shared enquiry banner",
+      "type": "text",
+      "multiline": false
+    },
+    "copy_9a56902bc1": {
+      "label": "Discuss your requirements",
+      "value": "Discuss your requirements",
+      "group": "Shared enquiry banner",
+      "type": "text",
+      "multiline": false
+    },
+    "catalogue_file": {
+      "label": "Product catalogue PDF",
+      "value": "assets/documents/parthvi-exim-product-catalogue.pdf",
+      "group": "Catalogue download",
+      "type": "pdf",
+      "multiline": false
+    },
+    "show_catalogue": {
+      "label": "Show catalogue download",
+      "value": "1",
+      "group": "Catalogue download",
+      "type": "toggle",
+      "multiline": false
+    },
+    "show_cta": {
+      "label": "Show shared enquiry banner",
+      "value": "1",
+      "group": "Shared enquiry banner",
+      "type": "toggle",
+      "multiline": false
+    },
+    "show_whatsapp": {
+      "label": "Show floating WhatsApp button",
+      "value": "1",
+      "group": "Contact options",
+      "type": "toggle",
+      "multiline": false
+    },
+    "theme_primary": {
+      "label": "Primary brand colour",
+      "value": "#173e32",
+      "group": "Brand colours",
+      "type": "color",
+      "multiline": false
+    },
+    "theme_accent": {
+      "label": "Accent text colour",
+      "value": "#80572d",
+      "group": "Brand colours",
+      "type": "color",
+      "multiline": false
+    },
+    "theme_background": {
+      "label": "Page background colour",
+      "value": "#fdfcf8",
+      "group": "Brand colours",
+      "type": "color",
+      "multiline": false
+    },
+    "nav_home": {
+      "label": "Home menu label",
+      "value": "Home",
+      "group": "Navigation",
+      "type": "text",
+      "multiline": false
+    },
+    "nav_about": {
+      "label": "About us menu label",
+      "value": "About us",
+      "group": "Navigation",
+      "type": "text",
+      "multiline": false
+    },
+    "nav_products": {
+      "label": "Our Products menu label",
+      "value": "Our Products",
+      "group": "Navigation",
+      "type": "text",
+      "multiline": false
+    },
+    "nav_certificates": {
+      "label": "Certificates menu label",
+      "value": "Certificates",
+      "group": "Navigation",
+      "type": "text",
+      "multiline": false
+    },
+    "nav_contact": {
+      "label": "Contact us menu label",
+      "value": "Contact us",
+      "group": "Navigation",
+      "type": "text",
+      "multiline": false
+    },
+    "product_link_label": {
+      "label": "Product card button label",
+      "value": "View product",
+      "group": "Product cards",
+      "type": "text",
+      "multiline": false
+    },
+    "cta_link": {
+      "label": "Enquiry banner destination",
+      "value": "contact",
+      "group": "Shared enquiry banner",
+      "type": "link",
+      "multiline": false
+    },
+    "catalogue_label": {
+      "label": "Catalogue download label",
+      "value": "Download Catalogue",
+      "group": "Catalogue download",
+      "type": "text",
+      "multiline": false
+    },
+    "footer_phone": {
+      "label": "Phone label",
+      "value": "Phone:",
+      "group": "Footer",
+      "type": "text",
+      "multiline": false
+    },
+    "footer_whatsapp": {
+      "label": "WhatsApp label",
+      "value": "WhatsApp:",
+      "group": "Footer",
+      "type": "text",
+      "multiline": false
+    },
+    "footer_email": {
+      "label": "Email label",
+      "value": "Email:",
+      "group": "Footer",
+      "type": "text",
+      "multiline": false
+    },
+    "footer_address": {
+      "label": "Address label",
+      "value": "Address:",
+      "group": "Footer",
+      "type": "text",
+      "multiline": false
+    },
+    "copyright_text": {
+      "label": "Copyright suffix",
+      "value": "All rights reserved.",
+      "group": "Footer",
+      "type": "text",
+      "multiline": false
+    },
+    "privacy_label": {
+      "label": "Privacy link label",
+      "value": "Privacy Policy",
+      "group": "Footer",
+      "type": "text",
+      "multiline": false
+    },
+    "terms_label": {
+      "label": "Terms link label",
+      "value": "Terms & Conditions",
+      "group": "Footer",
+      "type": "text",
+      "multiline": false
+    },
+    "developer_url": {
+      "label": "Developer credit destination",
+      "value": "https://www.infotechgravity.com/",
+      "group": "Footer",
+      "type": "link",
+      "multiline": false
+    },
+    "not_found_small": {
+      "label": "Unavailable-product small heading",
+      "value": "404 · PRODUCT UNAVAILABLE",
+      "group": "Unavailable product page",
+      "type": "text",
+      "multiline": false
+    },
+    "not_found_heading": {
+      "label": "Unavailable-product heading",
+      "value": "Let’s find the right ingredient.",
+      "group": "Unavailable product page",
+      "type": "text",
+      "multiline": false
+    },
+    "not_found_copy": {
+      "label": "Unavailable-product explanation",
+      "value": "This product is unavailable. Browse our current collection or contact our team for help.",
+      "group": "Unavailable product page",
+      "type": "text",
+      "multiline": false
+    },
+    "not_found_button": {
+      "label": "Unavailable-product button",
+      "value": "Explore our products ↗",
+      "group": "Unavailable product page",
+      "type": "text",
+      "multiline": false
+    },
+    "page_missing_small": {
+      "label": "Missing-page small heading",
+      "value": "404 · PAGE NOT FOUND",
+      "group": "Missing page",
+      "type": "text",
+      "multiline": false
+    },
+    "page_missing_heading": {
+      "label": "Missing-page heading",
+      "value": "Let’s get you back on track.",
+      "group": "Missing page",
+      "type": "text",
+      "multiline": false
+    },
+    "page_missing_copy": {
+      "label": "Missing-page explanation",
+      "value": "This page is unavailable. Explore our current product collection or contact our team.",
+      "group": "Missing page",
+      "type": "text",
+      "multiline": false
+    },
+    "page_missing_button": {
+      "label": "Missing-page button",
+      "value": "Explore our products ↗",
+      "group": "Missing page",
+      "type": "text",
+      "multiline": false
+    },
+    "google_verification": {
+      "label": "Google Search Console verification token (optional)",
+      "value": "",
+      "group": "Search verification",
+      "type": "text",
+      "multiline": false
+    }
+  },
+  "privacy-policy": {
+    "span_1": {
+      "label": "Label — Your Privacy",
+      "value": "Your Privacy",
+      "multiline": false,
+      "group": "Page banner & introduction",
+      "type": "text"
+    },
+    "h1_1": {
+      "label": "Heading — Privacy Policy",
+      "value": "Privacy Policy",
+      "multiline": false,
+      "group": "Page banner & introduction",
+      "type": "text"
+    },
+    "p_1": {
+      "label": "Paragraph — Information about your details when you browse our website o",
+      "value": "Information about your details when you browse our website or contact us about a trade inquiry.",
+      "multiline": true,
+      "group": "Page banner & introduction",
+      "type": "textarea"
+    },
+    "strong_1": {
+      "label": "Label — On this page",
+      "value": "On this page",
+      "multiline": false,
+      "group": "Page banner & introduction",
+      "type": "text"
+    },
+    "p_2": {
+      "label": "Paragraph — Last updated: 28 October 2026",
+      "value": "Last updated: 28 October 2026",
+      "multiline": true,
+      "group": "Page banner & introduction",
+      "type": "textarea"
+    },
+    "p_3": {
+      "label": "Paragraph — This policy covers the Parthvi Exim website and inquiries di",
+      "value": "This policy covers the Parthvi Exim website and inquiries directed to Parthvi Exim, Surat, Gujarat, India.",
+      "multiline": true,
+      "group": "Page banner & introduction",
+      "type": "textarea"
+    },
+    "h2_1": {
+      "label": "Heading — 1. Information you share",
+      "value": "1. Information you share",
+      "multiline": false,
+      "group": "Information",
+      "type": "text"
+    },
+    "p_4": {
+      "label": "Paragraph — When you contact us, you may provide your name, email addres",
+      "value": "When you contact us, you may provide your name, email address, phone number, country, company name, product interest, quantity, and other trade requirements. Please share only details relevant to your inquiry, and avoid sending passwords, payment card details, or unnecessary identity documents.",
+      "multiline": true,
+      "group": "Information",
+      "type": "textarea"
+    },
+    "p_5": {
+      "label": "Paragraph — When you submit the website inquiry form, your details are s",
+      "value": "When you submit the website inquiry form, your details are saved in our inquiry system and are available to our authorized administrator for follow-up. You can also contact us directly by email, telephone, or WhatsApp.",
+      "multiline": true,
+      "group": "Information",
+      "type": "textarea"
+    },
+    "h2_2": {
+      "label": "Heading — 2. How information is used",
+      "value": "2. How information is used",
+      "multiline": false,
+      "group": "Use",
+      "type": "text"
+    },
+    "p_6": {
+      "label": "Paragraph — Information provided with an inquiry is used to respond to y",
+      "value": "Information provided with an inquiry is used to respond to you, clarify product requirements, prepare quotations, and coordinate requested business communications. If an inquiry leads to a transaction, additional details may be needed for invoicing, documentation, and shipment arrangements.",
+      "multiline": true,
+      "group": "Use",
+      "type": "textarea"
+    },
+    "p_7": {
+      "label": "Paragraph — Email and communication providers process messages through t",
+      "value": "Email and communication providers process messages through their services. Where needed to fulfill a transaction, relevant details may also be shared with logistics, documentation, or professional service providers, or disclosed where required by applicable law.",
+      "multiline": true,
+      "group": "Use",
+      "type": "textarea"
+    },
+    "h2_3": {
+      "label": "Heading — 3. Website & external services",
+      "value": "3. Website & external services",
+      "multiline": false,
+      "group": "Services",
+      "type": "text"
+    },
+    "p_8": {
+      "label": "Paragraph — This website does not currently include advertising trackers",
+      "value": "This website does not currently include advertising trackers, analytics scripts, buyer accounts, or an online checkout. Essential session cookies protect the inquiry form and admin sign-in. Styling and navigation resources are served with the website. Hosting systems may maintain technical access logs for operation and security.",
+      "multiline": true,
+      "group": "Services",
+      "type": "textarea"
+    },
+    "p_9": {
+      "label": "Paragraph — Links to WhatsApp, Facebook, Instagram, and LinkedIn take yo",
+      "value": "Links to WhatsApp, Facebook, Instagram, and LinkedIn take you to external services. Those services and your email provider handle information under their own privacy policies and may use cookies or similar technologies. You can manage cookies through your browser settings.",
+      "multiline": true,
+      "group": "Services",
+      "type": "textarea"
+    },
+    "h2_4": {
+      "label": "Heading — 4. Records & security",
+      "value": "4. Records & security",
+      "multiline": false,
+      "group": "Retention",
+      "type": "text"
+    },
+    "p_10": {
+      "label": "Paragraph — Website inquiries are kept in the inquiry system for follow-",
+      "value": "Website inquiries are kept in the inquiry system for follow-up and can be removed by the administrator. Inquiry and business correspondence may also remain in email or messaging records for transaction documentation and applicable record-keeping requirements. The appropriate retention period depends on the nature of the correspondence and any resulting transaction.",
+      "multiline": true,
+      "group": "Retention",
+      "type": "textarea"
+    },
+    "p_11": {
+      "label": "Paragraph — No internet or email service can guarantee absolute security",
+      "value": "No internet or email service can guarantee absolute security. Contact us if you believe information shared with us has been accessed or used improperly.",
+      "multiline": true,
+      "group": "Retention",
+      "type": "textarea"
+    },
+    "h2_5": {
+      "label": "Heading — 5. Your choices",
+      "value": "5. Your choices",
+      "multiline": false,
+      "group": "Choices",
+      "type": "text"
+    },
+    "p_12": {
+      "label": "Paragraph — You can browse without completing an inquiry. Review your de",
+      "value": "You can browse without completing an inquiry. Review your details before submitting the contact form. You can contact us to request access to, correction of, or deletion of information you have shared, or to ask us to stop further inquiry follow-up.",
+      "multiline": true,
+      "group": "Choices",
+      "type": "textarea"
+    },
+    "p_13": {
+      "label": "Paragraph — We may need to verify a request and retain records required ",
+      "value": "We may need to verify a request and retain records required for an existing transaction or by applicable law. The availability of particular rights depends on the laws that apply to your circumstances.",
+      "multiline": true,
+      "group": "Choices",
+      "type": "textarea"
+    },
+    "h2_6": {
+      "label": "Heading — 6. Questions & policy updates",
+      "value": "6. Questions & policy updates",
+      "multiline": false,
+      "group": "Contact",
+      "type": "text"
+    },
+    "p_14": {
+      "label": "Paragraph — This policy may be updated as the website or our services ch",
+      "value": "This policy may be updated as the website or our services change. The date above identifies the latest revision.",
+      "multiline": true,
+      "group": "Contact",
+      "type": "textarea"
+    }
+  },
+  "terms-and-conditions": {
+    "span_1": {
+      "label": "Label — Website Terms",
+      "value": "Website Terms",
+      "multiline": false,
+      "group": "Page banner & introduction",
+      "type": "text"
+    },
+    "h1_1": {
+      "label": "Heading — Terms & Conditions",
+      "value": "Terms & Conditions",
+      "multiline": false,
+      "group": "Page banner & introduction",
+      "type": "text"
+    },
+    "p_1": {
+      "label": "Paragraph — Please read these terms when using our website and making a ",
+      "value": "Please read these terms when using our website and making a trade inquiry.",
+      "multiline": true,
+      "group": "Page banner & introduction",
+      "type": "textarea"
+    },
+    "strong_1": {
+      "label": "Label — On this page",
+      "value": "On this page",
+      "multiline": false,
+      "group": "Page banner & introduction",
+      "type": "text"
+    },
+    "p_2": {
+      "label": "Paragraph — Last updated: 8 September 2026",
+      "value": "Last updated: 8 September 2026",
+      "multiline": true,
+      "group": "Page banner & introduction",
+      "type": "textarea"
+    },
+    "p_3": {
+      "label": "Paragraph — This website is provided by Parthvi Exim, Surat, Gujarat, In",
+      "value": "This website is provided by Parthvi Exim, Surat, Gujarat, India, to introduce our agricultural products and help prospective buyers contact us. These terms concern use of the website; individual transactions require separately agreed commercial terms.",
+      "multiline": true,
+      "group": "Page banner & introduction",
+      "type": "textarea"
+    },
+    "h2_1": {
+      "label": "Heading — 1. Using this website",
+      "value": "1. Using this website",
+      "multiline": false,
+      "group": "Website",
+      "type": "text"
+    },
+    "p_4": {
+      "label": "Paragraph — You may browse the website, review product information, down",
+      "value": "You may browse the website, review product information, download certificates for legitimate business review, and contact us with inquiries. Please provide accurate contact details and only share information you are authorized to provide.",
+      "multiline": true,
+      "group": "Website",
+      "type": "textarea"
+    },
+    "p_5": {
+      "label": "Paragraph — Do not misuse the website, attempt unauthorized access, dist",
+      "value": "Do not misuse the website, attempt unauthorized access, distribute malicious content, impersonate another person or business, or use our information in a misleading or unlawful way.",
+      "multiline": true,
+      "group": "Website",
+      "type": "textarea"
+    },
+    "h2_2": {
+      "label": "Heading — 2. Product information",
+      "value": "2. Product information",
+      "multiline": false,
+      "group": "Products",
+      "type": "text"
+    },
+    "p_6": {
+      "label": "Paragraph — Product descriptions, photographs, grades, packaging options",
+      "value": "Product descriptions, photographs, grades, packaging options, and specifications provide general information. Natural agricultural products may vary between batches. Availability, exact specifications, quantities, and packaging must be confirmed for each order.",
+      "multiline": true,
+      "group": "Products",
+      "type": "textarea"
+    },
+    "p_7": {
+      "label": "Paragraph — Descriptions of product applications are for general commerc",
+      "value": "Descriptions of product applications are for general commercial information and are not medical advice or a guarantee of suitability for a particular use. Buyers should confirm the requirements for their intended application and destination market.",
+      "multiline": true,
+      "group": "Products",
+      "type": "textarea"
+    },
+    "h2_3": {
+      "label": "Heading — 3. Inquiries & orders",
+      "value": "3. Inquiries & orders",
+      "multiline": false,
+      "group": "Inquiries",
+      "type": "text"
+    },
+    "p_8": {
+      "label": "Paragraph — The website does not accept payments or place orders. Sendin",
+      "value": "The website does not accept payments or place orders. Sending the contact form saves your requirements for our team to review. An inquiry, downloaded document, or website visit does not create a confirmed purchase or supply agreement.",
+      "multiline": true,
+      "group": "Inquiries",
+      "type": "textarea"
+    },
+    "p_9": {
+      "label": "Paragraph — Prices, payment arrangements, product specifications, inspec",
+      "value": "Prices, payment arrangements, product specifications, inspection requirements, delivery schedules, shipping responsibilities, and any cancellation, return, or refund terms must be agreed in writing for the relevant transaction. Please obtain confirmation before making payment or relying on a delivery date.",
+      "multiline": true,
+      "group": "Inquiries",
+      "type": "textarea"
+    },
+    "p_10": {
+      "label": "Paragraph — Any separately agreed transaction terms govern that transact",
+      "value": "Any separately agreed transaction terms govern that transaction. These website terms do not replace them or exclude rights that cannot lawfully be excluded.",
+      "multiline": true,
+      "group": "Inquiries",
+      "type": "textarea"
+    },
+    "h2_4": {
+      "label": "Heading — 4. Content & certificates",
+      "value": "4. Content & certificates",
+      "multiline": false,
+      "group": "Documents",
+      "type": "text"
+    },
+    "p_11": {
+      "label": "Paragraph — The Parthvi Exim name, logo, and website materials must not ",
+      "value": "The Parthvi Exim name, logo, and website materials must not be used to imply an unauthorized partnership or endorsement. Do not alter certificates or reproduce them in a way that misrepresents their holder, scope, or status.",
+      "multiline": true,
+      "group": "Documents",
+      "type": "textarea"
+    },
+    "p_12": {
+      "label": "Paragraph — Certificates are provided for reference and business verific",
+      "value": "Certificates are provided for reference and business verification. A registration or license is not a guarantee of every product, shipment, or intended use. If current documentation is needed, contact us and verify relevant details with the issuing authority.",
+      "multiline": true,
+      "group": "Documents",
+      "type": "textarea"
+    },
+    "h2_5": {
+      "label": "Heading — 5. External services & availability",
+      "value": "5. External services & availability",
+      "multiline": false,
+      "group": "External",
+      "type": "text"
+    },
+    "p_13": {
+      "label": "Paragraph — Social media, WhatsApp, email, and other external services o",
+      "value": "Social media, WhatsApp, email, and other external services operate under their own terms and policies. We do not control their content, availability, or operation.",
+      "multiline": true,
+      "group": "External",
+      "type": "textarea"
+    },
+    "h2_6": {
+      "label": "Heading — 6. Questions & updates",
+      "value": "6. Questions & updates",
+      "multiline": false,
+      "group": "Contact",
+      "type": "text"
+    },
+    "p_14": {
+      "label": "Paragraph — We may revise these website terms as information or services",
+      "value": "We may revise these website terms as information or services change. The latest revision date is shown above. Changes to these website terms do not automatically change an existing written transaction agreement.",
+      "multiline": true,
+      "group": "Contact",
+      "type": "textarea"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+Options -MultiViews
+DirectoryIndex index.php
+RewriteEngine On
+Options -Indexes
+
+# Canonical production host. Local development remains on localhost.
+RewriteCond %{HTTP_HOST} ^www\.parthviexim\.com(?::[0-9]+)?$ [NC]
+RewriteRule ^ https://parthviexim.com%{REQUEST_URI} [R=301,L]
+RewriteCond %{HTTP_HOST} ^parthviexim\.com(?::[0-9]+)?$ [NC]
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP:X-Forwarded-Proto} !^https$ [NC]
+RewriteRule ^ https://parthviexim.com%{REQUEST_URI} [R=301,L]
+
+RewriteCond %{REQUEST_URI} ^(.*/)sitemap\.xml$
+RewriteRule ^sitemap\.xml$ %1sitemap.php [L]
+RewriteCond %{REQUEST_URI} ^(.*/)robots\.txt$
+RewriteRule ^robots\.txt$ %1robots.php [L]
+
+# Keep direct helper URLs on one public crawler endpoint.
+RewriteCond %{THE_REQUEST} \s/+(.*/)?robots\.php(?:[?\s]) [NC]
+RewriteRule ^robots\.php$ /%1robots.txt [R=301,L]
+RewriteCond %{THE_REQUEST} \s/+(.*/)?sitemap\.php(?:[?\s]) [NC]
+RewriteRule ^sitemap\.php$ /%1sitemap.xml [R=301,L]
+
+<IfModule mod_mime.c>
+AddType image/webp .webp
+</IfModule>
+<IfModule mod_headers.c>
+<FilesMatch "\.(css|js|png|jpe?g|svg)$">
+Header set Cache-Control "public, max-age=2592000"
+</FilesMatch>
+</IfModule>
+
+# Compress text responses; image and PDF files are already compressed.
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE text/html text/plain text/css application/javascript application/json application/xml image/svg+xml
+</IfModule>
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType text/css "access plus 1 month"
+ExpiresByType application/javascript "access plus 1 month"
+ExpiresByType image/png "access plus 1 month"
+ExpiresByType image/jpeg "access plus 1 month"
+ExpiresByType image/webp "access plus 1 year"
+ExpiresByType image/svg+xml "access plus 1 month"
+</IfModule>
+
+<Files "ADMIN-SETUP.md">
+Require all denied
+</Files>
+<FilesMatch "(?i)\.(md|sql|sqlite|py)$">
+Require all denied
+</FilesMatch>
+
+# Redirect public PHP URLs only when explicitly requested by the browser.
+# Preserve the query string and work both in a subfolder and at a domain root.
+RewriteCond %{THE_REQUEST} \s/+(.*/)?index\.php(?:[?\s]) [NC]
+RewriteRule ^index\.php$ /%1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} \s/+(.*/)?(about|products|certificates|contact|privacy-policy|terms-and-conditions)\.php(?:[?\s]) [NC]
+RewriteRule ^(about|products|certificates|contact|privacy-policy|terms-and-conditions)\.php$ /%1%2 [R=301,L]
+
+# Use one canonical URL per page, without a trailing slash.
+RewriteCond %{REQUEST_URI} ^(.*/)index/?$
+RewriteRule ^index/?$ %1 [R=301,L]
+RewriteCond %{REQUEST_URI} ^(.*/)(about|products|certificates|contact|privacy-policy|terms-and-conditions)/$
+RewriteRule ^(about|products|certificates|contact|privacy-policy|terms-and-conditions)/$ %1%2 [R=301,L]
+
+# Serve public pages internally; leave images, PDFs, CSS and other files alone.
+RewriteCond %{REQUEST_URI} ^(.*/products/[a-z0-9-]+)/$
+RewriteRule ^products/([a-z0-9]+(?:-[a-z0-9]+)*)/$ %1 [R=301,L]
+RewriteCond %{REQUEST_URI} ^(.*/)products/[a-z0-9-]+$
+RewriteRule ^products/([a-z0-9]+(?:-[a-z0-9]+)*)$ %1product.php?slug=$1 [L]
+RewriteCond %{REQUEST_URI} ^(.*/)[^/]+$
+RewriteRule ^(about|products|certificates|contact|privacy-policy|terms-and-conditions)$ %1$1.php [L]
+
+# Canonical category landing pages; single-product categories redirect in PHP.
+RewriteCond %{REQUEST_URI} ^(.*/categories/[a-z0-9-]+)/$
+RewriteRule ^categories/([a-z0-9]+(?:-[a-z0-9]+)*)/$ %1 [R=301,L]
+RewriteCond %{REQUEST_URI} ^(.*/)categories/[a-z0-9-]+$
+RewriteRule ^categories/([a-z0-9]+(?:-[a-z0-9]+)*)$ %1category.php?slug=$1 [L]
+
+# Missing pages keep their requested URL and return HTTP 404.
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ 404.php [L]

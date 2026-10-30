@@ -1,0 +1,11 @@
+/config/database.php
+/config/database.local.php
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+*.sqlite
+*.sqlite3
+*.bak
+/backups/
