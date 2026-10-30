@@ -3459,7 +3459,7 @@ For your world.',
         'theme_primary' => 
         array (
           'label' => 'Primary brand colour',
-          'value' => '#173e32',
+          'value' => '#073777',
           'group' => 'Brand colours',
           'type' => 'color',
           'multiline' => false,
@@ -3467,7 +3467,7 @@ For your world.',
         'theme_accent' => 
         array (
           'label' => 'Accent text colour',
-          'value' => '#80572d',
+          'value' => '#006db6',
           'group' => 'Brand colours',
           'type' => 'color',
           'multiline' => false,
@@ -3475,7 +3475,7 @@ For your world.',
         'theme_background' => 
         array (
           'label' => 'Page background colour',
-          'value' => '#fdfcf8',
+          'value' => '#ffffff',
           'group' => 'Brand colours',
           'type' => 'color',
           'multiline' => false,

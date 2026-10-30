@@ -32,7 +32,9 @@ function cms_records(string $type, bool $public=true): array {
 function cms_page(string $slug): array {
     $q=cms_db()->prepare('SELECT * FROM pages WHERE slug=?');$q->execute([$slug]);$r=$q->fetch();
     if(!$r) return ['slug'=>$slug,'data'=>['fields'=>[]],'version'=>0];
-    $r['data']=json_decode($r['data'],true,512,JSON_THROW_ON_ERROR);return $r;
+    $r['data']=json_decode($r['data'],true,512,JSON_THROW_ON_ERROR);
+    if($slug==='site')$r['data']['fields']=content_upgrade_brand_fields($r['data']['fields']??[]);
+    return $r;
 }
 function setting(string $key): string { global $siteSettings; return (string)($siteSettings[$key]??''); }
 function page_text(string $key): string { global $currentPage; return e($currentPage['data']['fields'][$key]['value']??''); }

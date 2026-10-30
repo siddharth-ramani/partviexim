@@ -67,3 +67,10 @@ Added six multi-product category landing pages with buyer guidance, crawlable in
 Optimized logo delivery and added two responsive hero variants that are actively referenced in preload/srcset. The original client images remain available for admin editing. Local mobile lab samples improved LCP from 2,492 ms to 1,320 ms, with CLS 0; production field measurements are still pending. See `SEO-PLAN.md` for full configuration, evidence and launch/account work.
 
 Latest checks: 545 SEO crawl assertions across 44 public URLs, 18 category SEO integration checks, 30 original integration checks, 33 website-manager checks, 262 dynamic-content checks and 24 responsive layout cases. Test content remained isolated and temporary QA assets were removed.
+
+## Logo-led visual refinement — 30 October 2026
+
+- Replaced the default green/brown palette with logo-aligned deep navy (#073777), blue (#006db6), white and cool light surfaces. Product photography keeps subtle neutral/natural backgrounds.
+- Refined typography, spacing, card hierarchy, navigation, buttons, form controls, footer and keyboard focus. Mobile card layouts switch to one column below 360px; product detail columns stack below 768px. No extra font requests or replacement product imagery were added.
+- Centralised brand colour tokens so the admin palette applies consistently. The exact original default green palette is resolved to the new defaults when read, including in the admin editor, without overwriting the live database. Other saved custom palettes are retained. Existing hosting needs updated files only for this visual change; do not reimport the installation SQL.
+- Validation: 225 page/viewport cases (44 public pages and a 404 at 320, 390, 768, 1024 and 1440px), desktop/mobile product menus, product search/empty state/reset, custom colour inheritance, 33 isolated admin management checks and 545 SEO crawl checks. Screenshots reviewed across Home, catalogue, category cards, product details, Contact, menus and footer. This is local browser validation, not a claim that every physical device has been tested.

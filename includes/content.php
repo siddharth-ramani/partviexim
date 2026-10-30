@@ -58,6 +58,16 @@ function cms_unique_category_slug(string $name,int $ignore=0): string {
     return $slug;
 }
 function content_has_custom_theme(): bool {
-    foreach(['theme_primary'=>'#173e32','theme_accent'=>'#80572d','theme_background'=>'#fdfcf8'] as $key=>$value)if(strtolower(content_value($key,'site'))!==$value)return true;
+    foreach(content_theme_defaults() as $key=>$value)if(strtolower(content_value($key,'site'))!==$value)return true;
     return false;
+}
+
+function content_theme_defaults(): array {
+    return ['theme_primary'=>'#073777','theme_accent'=>'#006db6','theme_background'=>'#ffffff'];
+}
+function content_upgrade_brand_fields(array $fields): array {
+    $legacy=['theme_primary'=>'#173e32','theme_accent'=>'#80572d','theme_background'=>'#fdfcf8'];
+    foreach($legacy as $key=>$value)if(strtolower((string)($fields[$key]['value']??''))!==$value)return $fields;
+    foreach(content_theme_defaults() as $key=>$value)$fields[$key]['value']=$value;
+    return $fields;
 }

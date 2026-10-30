@@ -1384,21 +1384,21 @@
     },
     "theme_primary": {
       "label": "Primary brand colour",
-      "value": "#173e32",
+      "value": "#073777",
       "group": "Brand colours",
       "type": "color",
       "multiline": false
     },
     "theme_accent": {
       "label": "Accent text colour",
-      "value": "#80572d",
+      "value": "#006db6",
       "group": "Brand colours",
       "type": "color",
       "multiline": false
     },
     "theme_background": {
       "label": "Page background colour",
-      "value": "#fdfcf8",
+      "value": "#ffffff",
       "group": "Brand colours",
       "type": "color",
       "multiline": false
