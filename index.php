@@ -1,4 +1,5 @@
 <?php
+// Public homepage entry point: render the managed catalogue and company content.
 $pageTitle='Indian Ingredients, Global Possibilities';
 $pageDescription='Explore Indian dehydrated onion, garlic, peanuts, spices and agricultural ingredients from Parthvi Exim. Browse our product catalogue and request an export quotation.';
 require_once __DIR__.'/includes/header.php';
