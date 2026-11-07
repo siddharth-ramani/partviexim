@@ -1,12 +1,6 @@
 Options -MultiViews
 DirectoryIndex index.php
 RewriteEngine On
-
-# Keep repository metadata and per-server configuration private.
-RewriteRule (^|/)\.(git|svn)(/|$) - [F,L,NC]
-<FilesMatch "(?i)^(\.env(?:\..*)?|\.user\.ini)$">
-Require all denied
-</FilesMatch>
 Options -Indexes
 
 # Canonical production host. Local development remains on localhost.
