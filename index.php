@@ -1,4 +1,5 @@
 <?php
+// Homepage restored from the verified catalogue and company templates.
 $pageTitle='Indian Ingredients, Global Possibilities';
 $pageDescription='Explore Indian dehydrated onion, garlic, peanuts, spices and agricultural ingredients from Parthvi Exim. Browse our product catalogue and request an export quotation.';
 require_once __DIR__.'/includes/header.php';
